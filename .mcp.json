@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "type": "sse",
+      "url": "http://localhost:9222/json"
+    },
+    "ev-cs-agent": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "cs_agent.mcp_server"],
+      "cwd": "${workspaceFolder}",
+      "description": "新能源汽车智能客服 MCP Server：ask_ev_agent / rag_search / extract_entities / create_ticket / get_memory / list_recent_traces"
+    }
+  }
+}

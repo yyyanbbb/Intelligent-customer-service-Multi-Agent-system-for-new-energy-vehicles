@@ -1,0 +1,26 @@
+{
+  "intent_accuracy": 1.0,
+  "entity_precision": 0.6842105263157895,
+  "entity_recall": 0.8666666666666667,
+  "entity_f1": 0.7647058823529413,
+  "rag_faithfulness": 0.693801912433406,
+  "intent_by_class": {
+    "vehicle_qa": {
+      "correct": 16,
+      "total": 16
+    },
+    "aftersales": {
+      "correct": 8,
+      "total": 8
+    },
+    "purchase": {
+      "correct": 4,
+      "total": 4
+    },
+    "chitchat": {
+      "correct": 2,
+      "total": 2
+    }
+  },
+  "n_samples": 30
+}
